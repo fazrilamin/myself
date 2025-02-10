@@ -21,7 +21,7 @@ jobs:
         run: |
           STARS=$(jq '.public_repos' github_stats.json)
           FOLLOWERS=$(jq '.followers' github_stats.json)
-          CONTRIBUTIONS=$(curl -s "https://api.github.com/users/YOUR_USERNAME/events" | jq '[.[] | select(.type=="PushEvent")] | length')
+          CONTRIBUTIONS=$(curl -s "https://api.github.com/users/fazrilamin/events" | jq '[.[] | select(.type=="PushEvent")] | length')
 
           echo "# Hi there! 👋" > README.md
           echo "" >> README.md
