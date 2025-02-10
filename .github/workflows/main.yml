@@ -1,0 +1,39 @@
+name: Update GitHub Stats
+
+on:
+  schedule:
+    - cron: "0 0 * * *"  # Runs daily at midnight UTC
+  workflow_dispatch:  # Allows manual trigger
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Fetch GitHub Stats
+        run: |
+          curl -s https://api.github.com/users/fazrilamin > github_stats.json
+
+      - name: Update README
+        run: |
+          STARS=$(jq '.public_repos' github_stats.json)
+          FOLLOWERS=$(jq '.followers' github_stats.json)
+          CONTRIBUTIONS=$(curl -s "https://api.github.com/users/YOUR_USERNAME/events" | jq '[.[] | select(.type=="PushEvent")] | length')
+
+          echo "# Hi there! 👋" > README.md
+          echo "" >> README.md
+          echo "## 🚀 GitHub Stats" >> README.md
+          echo "- **Total Repos:** $STARS 🌟" >> README.md
+          echo "- **Followers:** $FOLLOWERS 👥" >> README.md
+          echo "- **Contributions this week:** $CONTRIBUTIONS 🔥" >> README.md
+
+      - name: Commit and Push Changes
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add README.md
+          git commit -m "Updated GitHub stats"
+          git push
