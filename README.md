@@ -1,6 +1,6 @@
 # Hi there! 👋
 
 ## 🚀 GitHub Stats
-- **Total Repos:** 3 🌟
+- **Total Repos:** 5 🌟
 - **Followers:** 0 👥
-- **Contributions this week:** 0 🔥
+- **Contributions this week:** 13 🔥
