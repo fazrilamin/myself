@@ -3,4 +3,4 @@
 ## 🚀 GitHub Stats
 - **Total Repos:** 6 🌟
 - **Followers:** 0 👥
-- **Contributions this week:** 18 🔥
+- **Contributions this week:** 6 🔥
