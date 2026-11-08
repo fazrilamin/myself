@@ -1,9 +1,17 @@
-name: Update GitHub Stats
+name: Update README
 
 on:
   schedule:
-    - cron: "0 0 * * *"  # Runs daily at midnight UTC
-  workflow_dispatch:  # Allows manual trigger
+    - cron: "17 1 * * *" # daily 01:17 UTC (09:17 MYT); the gate below decides whether to commit
+  workflow_dispatch:
+    inputs:
+      force:
+        description: "Commit even if the last commit is recent"
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
 
 jobs:
   update-readme:
@@ -11,29 +19,51 @@ jobs:
 
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
-      - name: Fetch GitHub Stats
+      - name: Decide whether to commit today
+        id: gate
+        env:
+          FORCE: ${{ github.event.inputs.force }}
         run: |
-          curl -s https://api.github.com/users/fazrilamin > github_stats.json
+          last=$(git log -1 --format=%ct)
+          now=$(date +%s)
+          gap_days=$(( (now - last) / 86400 ))
+          echo "Days since last commit: $gap_days"
 
-      - name: Update README
+          if [ "$FORCE" = "true" ]; then
+            go=true
+          elif [ "$gap_days" -ge 3 ]; then
+            go=true
+          elif [ "$gap_days" -ge 2 ] && [ $((RANDOM % 2)) -eq 0 ]; then
+            go=true
+          else
+            go=false
+          fi
+
+          echo "Commit today: $go"
+          echo "go=$go" >> "$GITHUB_OUTPUT"
+
+      - name: Set up Python
+        if: steps.gate.outputs.go == 'true'
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Update README with Spotify recently played
+        if: steps.gate.outputs.go == 'true'
+        env:
+          SPOTIFY_CLIENT_ID: ${{ secrets.SPOTIFY_CLIENT_ID }}
+          SPOTIFY_CLIENT_SECRET: ${{ secrets.SPOTIFY_CLIENT_SECRET }}
+          SPOTIFY_REFRESH_TOKEN: ${{ secrets.SPOTIFY_REFRESH_TOKEN }}
+        run: python scripts/update_readme.py
+
+      - name: Commit and push
+        if: steps.gate.outputs.go == 'true'
         run: |
-          STARS=$(jq '.public_repos' github_stats.json)
-          FOLLOWERS=$(jq '.followers' github_stats.json)
-          CONTRIBUTIONS=$(curl -s "https://api.github.com/users/fazrilamin/events" | jq '[.[] | select(.type=="PushEvent")] | length')
-
-          echo "# Hi there! 👋" > README.md
-          echo "" >> README.md
-          echo "## 🚀 GitHub Stats" >> README.md
-          echo "- **Total Repos:** $STARS 🌟" >> README.md
-          echo "- **Followers:** $FOLLOWERS 👥" >> README.md
-          echo "- **Contributions this week:** $CONTRIBUTIONS 🔥" >> README.md
-
-      - name: Commit and Push Changes
-        run: |
-          git config --global user.name "github-actions[bot]"
-          git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          git add README.md github_stats.json
-          git commit -m "Updated Github stats"
+          # Commit as the account owner so it counts on the contribution graph.
+          git config user.name "fazrilamin"
+          git config user.email "175499730+fazrilamin@users.noreply.github.com"
+          git add README.md
+          git diff --cached --quiet || git commit -m "🎧 Update recently played"
           git push

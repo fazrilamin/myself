@@ -1,6 +1,7 @@
 # Hi there! 👋
 
-## 🚀 GitHub Stats
-- **Total Repos:** 3 🌟
-- **Followers:** 0 👥
-- **Contributions this week:** 0 🔥
+## 🎧 Recently played on Spotify
+
+<!-- SPOTIFY:START -->
+_Waiting for the first update…_
+<!-- SPOTIFY:END -->
