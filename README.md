@@ -4,4 +4,6 @@
 
 <!-- SPOTIFY:START -->
 _Waiting for the first update…_
+
+<sub>Last updated: 08 Nov 2026, 10:50 MYT</sub>
 <!-- SPOTIFY:END -->
