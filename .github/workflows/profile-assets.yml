@@ -22,6 +22,19 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v5
 
+      - name: Set up Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+
+      # Runs before the snake: the snake's Docker step creates dist/ as root,
+      # which would block this step from writing into it afterwards.
+      - name: Generate stats cards
+        continue-on-error: true # still publish the snake if this fails
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python scripts/stats_cards.py dist
+
       - name: Generate contribution snake
         uses: Platane/snk@v3
         with:
@@ -30,20 +43,9 @@ jobs:
             dist/github-snake.svg
             dist/github-snake-dark.svg?palette=github-dark
 
-      - name: Set up Python
-        uses: actions/setup-python@v6
-        with:
-          python-version: "3.12"
-
-      - name: Generate stats cards
-        continue-on-error: true # still publish the snake if this fails
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: python scripts/stats_cards.py dist
-
       # Assets go to a separate "output" branch so main keeps its own commit rhythm.
       - name: Publish to output branch
-        uses: crazy-max/ghaction-github-pages@v4
+        uses: crazy-max/ghaction-github-pages@v5
         with:
           target_branch: output
           build_dir: dist
