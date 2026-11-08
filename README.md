@@ -13,3 +13,18 @@
 
 <sub>Last updated: 08 Nov 2026, 10:58 MYT</sub>
 <!-- SPOTIFY:END -->
+
+## 📊 GitHub Stats
+
+<p>
+  <img src="https://raw.githubusercontent.com/fazrilamin/myself/output/stats.svg" alt="GitHub stats" height="165">
+  <img src="https://raw.githubusercontent.com/fazrilamin/myself/output/top-langs.svg" alt="Top languages" height="165">
+</p>
+
+## 🐍 Contributions
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/fazrilamin/myself/output/github-snake-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/fazrilamin/myself/output/github-snake.svg">
+  <img alt="Contribution snake" src="https://raw.githubusercontent.com/fazrilamin/myself/output/github-snake.svg">
+</picture>
