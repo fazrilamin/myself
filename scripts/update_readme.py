@@ -10,6 +10,7 @@ import json
 import os
 import re
 import sys
+import urllib.error
 import urllib.parse
 import urllib.request
 from datetime import datetime, timedelta, timezone
@@ -22,9 +23,12 @@ LIMIT = 5
 
 
 def get_access_token() -> str:
-    cid = os.environ["SPOTIFY_CLIENT_ID"]
-    secret = os.environ["SPOTIFY_CLIENT_SECRET"]
-    refresh = os.environ["SPOTIFY_REFRESH_TOKEN"]
+    names = ("SPOTIFY_CLIENT_ID", "SPOTIFY_CLIENT_SECRET", "SPOTIFY_REFRESH_TOKEN")
+    missing = [n for n in names if not os.environ.get(n, "").strip()]
+    if missing:
+        raise RuntimeError(f"missing or empty secret(s): {', '.join(missing)}")
+    # strip() guards against a space or newline pasted into the secret.
+    cid, secret, refresh = (os.environ[n].strip() for n in names)
     auth = base64.b64encode(f"{cid}:{secret}".encode()).decode()
     data = urllib.parse.urlencode(
         {"grant_type": "refresh_token", "refresh_token": refresh}
@@ -86,7 +90,11 @@ def main() -> None:
     try:
         tracks = render_tracks(get_recently_played(get_access_token()))
     except Exception as exc:  # network, auth, or API errors
-        print(f"Spotify fetch failed, keeping previous list: {exc}", file=sys.stderr)
+        detail = str(exc)
+        if isinstance(exc, urllib.error.HTTPError):
+            detail += " " + exc.read().decode(errors="replace")[:300]
+        # ::warning:: shows up as an annotation on the Actions run summary.
+        print(f"::warning::Spotify fetch failed, keeping previous list: {detail}")
         tracks = old_body or "_Couldn't reach Spotify right now._"
 
     stamp = datetime.now(MYT).strftime("%d %b %Y, %H:%M MYT")
