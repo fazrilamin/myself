@@ -36,6 +36,7 @@ jobs:
           python-version: "3.12"
 
       - name: Generate stats cards
+        continue-on-error: true # still publish the snake if this fails
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: python scripts/stats_cards.py dist

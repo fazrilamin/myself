@@ -7,6 +7,7 @@ Needs GITHUB_TOKEN in the environment (the Actions token is enough).
 import json
 import os
 import sys
+import urllib.error
 import urllib.request
 from datetime import date, datetime, timedelta, timezone
 from pathlib import Path
@@ -168,4 +169,12 @@ def main() -> None:
 
 
 if __name__ == "__main__":
-    main()
+    try:
+        main()
+    except Exception as exc:
+        detail = repr(exc)
+        if isinstance(exc, urllib.error.HTTPError):
+            detail += " " + exc.read().decode(errors="replace")[:300]
+        # ::error:: shows up as an annotation on the Actions run summary.
+        print(f"::error::Stats cards failed: {detail}")
+        raise
