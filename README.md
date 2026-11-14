@@ -5,13 +5,13 @@
 <!-- SPOTIFY:START -->
 | | Track | Artist | Played |
 |---|---|---|---|
-| <img src="https://i.scdn.co/image/ab67616d000048510b04da4f224b51ff86e0a481" width="40"> | [Electric Touch (feat. Fall Out Boy) (Taylor’s Version) (From The Vault)](https://open.spotify.com/track/4e3ZNTAV6PCrdYMUrUlMpQ) | Taylor Swift, Fall Out Boy | 10 Nov, 18:25 |
-| <img src="https://i.scdn.co/image/ab67616d00004851f24c7321eabddffc3829676b" width="40"> | [I'm Good (Blue)](https://open.spotify.com/track/4uUG5RXrOk84mYEfFvj3cK) | David Guetta, Bebe Rexha | 09 Nov, 21:12 |
-| <img src="https://i.scdn.co/image/ab67616d00004851f1d02a6cec967f8b6b78f76e" width="40"> | [Beauty And A Beat](https://open.spotify.com/track/6QFCMUUq1T2Vf5sFUXcuQ7) | Justin Bieber, Nicki Minaj | 09 Nov, 21:01 |
-| <img src="https://i.scdn.co/image/ab67616d00004851bb54dde68cd23e2a268ae0f5" width="40"> | [Anti-Hero](https://open.spotify.com/track/0V3wPSX9ygBnCm8psDIegu) | Taylor Swift | 09 Nov, 20:57 |
-| <img src="https://i.scdn.co/image/ab67616d00004851caa23612279c2d059a0d3a82" width="40"> | [Nothin' on You (feat. Bruno Mars)](https://open.spotify.com/track/59dLtGBS26x7kc0rHbaPrq) | B.o.B, Bruno Mars | 09 Nov, 20:47 |
+| <img src="https://i.scdn.co/image/ab67616d00004851e39e6380effa61f5abdac9db" width="40"> | [What If I Love You](https://open.spotify.com/track/47Gqye8c5KwOBba4dwF1iY) | Gatlin | 13 Nov, 19:24 |
+| <img src="https://i.scdn.co/image/ab67616d00004851f1d02a6cec967f8b6b78f76e" width="40"> | [Beauty And A Beat](https://open.spotify.com/track/6QFCMUUq1T2Vf5sFUXcuQ7) | Justin Bieber, Nicki Minaj | 13 Nov, 18:59 |
+| <img src="https://i.scdn.co/image/ab67616d00004851f1d02a6cec967f8b6b78f76e" width="40"> | [Beauty And A Beat](https://open.spotify.com/track/6QFCMUUq1T2Vf5sFUXcuQ7) | Justin Bieber, Nicki Minaj | 13 Nov, 18:55 |
+| <img src="https://i.scdn.co/image/ab67616d0000485169d05d032251b59ae738096a" width="40"> | [All Night](https://open.spotify.com/track/15iosIuxC3C53BgsM5Uggs) | Icona Pop | 13 Nov, 18:51 |
+| <img src="https://i.scdn.co/image/ab67616d00004851e787cffec20aa2a396a61647" width="40"> | [Miss Americana & The Heartbreak Prince](https://open.spotify.com/track/214nt20w5wOxJnY462klLw) | Taylor Swift | 13 Nov, 18:48 |
 
-<sub>Last updated: 11 Nov 2026, 15:47 MYT</sub>
+<sub>Last updated: 14 Nov 2026, 15:38 MYT</sub>
 <!-- SPOTIFY:END -->
 
 ## 📊 GitHub Stats
