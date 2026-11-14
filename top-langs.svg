@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="150" viewBox="0 0 400 150">
+  <style>
+    .bg { fill: #ffffff; stroke: #d0d7de; }
+    .title { font: 600 15px 'Segoe UI', Ubuntu, sans-serif; fill: #0969da; }
+    .label { font: 400 13px 'Segoe UI', Ubuntu, sans-serif; fill: #57606a; }
+    .value { font: 600 13px 'Segoe UI', Ubuntu, sans-serif; fill: #24292f; }
+    @media (prefers-color-scheme: dark) {
+      .bg { fill: #0d1117; stroke: #30363d; }
+      .title { fill: #58a6ff; }
+      .label { fill: #8b949e; }
+      .value { fill: #e6edf3; }
+    }
+  </style>
+  <rect class="bg" x="0.5" y="0.5" width="399" height="149" rx="6"/>
+  <text class="title" x="20" y="32">Top Languages</text>
+  <clipPath id="bar"><rect x="20" y="48" width="360" height="10" rx="5"/></clipPath>
+  <g clip-path="url(#bar)">
+    <rect x="20.00" y="48" width="173.49" height="10" fill="#4F5D95"/>
+    <rect x="193.49" y="48" width="115.18" height="10" fill="#b07219"/>
+    <rect x="308.68" y="48" width="31.32" height="10" fill="#f1e05a"/>
+    <rect x="340.00" y="48" width="14.21" height="10" fill="#663399"/>
+    <rect x="354.21" y="48" width="12.85" height="10" fill="#3572A5"/>
+    <rect x="367.06" y="48" width="7.15" height="10" fill="#012456"/>
+  </g>
+  <circle cx="25" cy="80" r="5" fill="#4F5D95"/>
+  <text class="value" x="36" y="84">PHP</text>
+  <text class="label" x="190" y="84" text-anchor="end">48.2%</text>
+  <circle cx="210" cy="80" r="5" fill="#b07219"/>
+  <text class="value" x="221" y="84">Java</text>
+  <text class="label" x="375" y="84" text-anchor="end">32.0%</text>
+  <circle cx="25" cy="104" r="5" fill="#f1e05a"/>
+  <text class="value" x="36" y="108">JavaScript</text>
+  <text class="label" x="190" y="108" text-anchor="end">8.7%</text>
+  <circle cx="210" cy="104" r="5" fill="#663399"/>
+  <text class="value" x="221" y="108">CSS</text>
+  <text class="label" x="375" y="108" text-anchor="end">3.9%</text>
+  <circle cx="25" cy="128" r="5" fill="#3572A5"/>
+  <text class="value" x="36" y="132">Python</text>
+  <text class="label" x="190" y="132" text-anchor="end">3.6%</text>
+  <circle cx="210" cy="128" r="5" fill="#012456"/>
+  <text class="value" x="221" y="132">PowerShell</text>
+  <text class="label" x="375" y="132" text-anchor="end">2.0%</text>
+</svg>

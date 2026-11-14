@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="180" viewBox="0 0 400 180">
+  <style>
+    .bg { fill: #ffffff; stroke: #d0d7de; }
+    .title { font: 600 15px 'Segoe UI', Ubuntu, sans-serif; fill: #0969da; }
+    .label { font: 400 13px 'Segoe UI', Ubuntu, sans-serif; fill: #57606a; }
+    .value { font: 600 13px 'Segoe UI', Ubuntu, sans-serif; fill: #24292f; }
+    @media (prefers-color-scheme: dark) {
+      .bg { fill: #0d1117; stroke: #30363d; }
+      .title { fill: #58a6ff; }
+      .label { fill: #8b949e; }
+      .value { fill: #e6edf3; }
+    }
+  </style>
+  <rect class="bg" x="0.5" y="0.5" width="399" height="179" rx="6"/>
+  <text class="title" x="20" y="32">GitHub Stats</text>
+  <text class="label" x="20" y="62">Contributions (last year)</text>
+  <text class="value" x="380" y="62" text-anchor="end">44</text>
+  <text class="label" x="20" y="86">Commits this year</text>
+  <text class="value" x="380" y="86" text-anchor="end">17</text>
+  <text class="label" x="20" y="110">Current streak</text>
+  <text class="value" x="380" y="110" text-anchor="end">1 day</text>
+  <text class="label" x="20" y="134">Longest streak</text>
+  <text class="value" x="380" y="134" text-anchor="end">5 days</text>
+  <text class="label" x="20" y="158">Stars earned</text>
+  <text class="value" x="380" y="158" text-anchor="end">15</text>
+</svg>
