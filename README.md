@@ -5,13 +5,13 @@
 <!-- SPOTIFY:START -->
 | | Track | Artist | Played |
 |---|---|---|---|
-| <img src="https://i.scdn.co/image/ab67616d0000485195f754318336a07e85ec59bc" width="40"> | [exile (feat. Bon Iver)](https://open.spotify.com/track/4pvb0WLRcMtbPGmtejJJ6y) | Taylor Swift, Bon Iver | 15 Nov, 10:12 |
-| <img src="https://i.scdn.co/image/ab67616d000048510ae6f06706ab3a955844e9a0" width="40"> | [End of the World](https://open.spotify.com/track/2rDMtmPctM67hICAZTKAjx) | Miley Cyrus | 15 Nov, 09:54 |
-| <img src="https://i.scdn.co/image/ab67616d000048519e5c6f60892ed2197833ad8c" width="40"> | [Run It](https://open.spotify.com/track/5GwOJaOWIuRi5eebSRnstT) | Jelly Roll | 15 Nov, 09:50 |
-| <img src="https://i.scdn.co/image/ab67616d00004851e39e6380effa61f5abdac9db" width="40"> | [What If I Love You](https://open.spotify.com/track/47Gqye8c5KwOBba4dwF1iY) | Gatlin | 13 Nov, 19:24 |
-| <img src="https://i.scdn.co/image/ab67616d00004851f1d02a6cec967f8b6b78f76e" width="40"> | [Beauty And A Beat](https://open.spotify.com/track/6QFCMUUq1T2Vf5sFUXcuQ7) | Justin Bieber, Nicki Minaj | 13 Nov, 18:59 |
+| <img src="https://i.scdn.co/image/ab67616d000048514110bfab1185fdfc9dfc2cf0" width="40"> | [Clean (Taylor's Version)](https://open.spotify.com/track/2ByBBvpR9b7IynvRmnG7kG) | Taylor Swift | 19 Nov, 08:33 |
+| <img src="https://i.scdn.co/image/ab67616d00004851f494ec3557599e3333b1925b" width="40"> | [Shooting Star](https://open.spotify.com/track/3NaTMzagO4nwJVKL9tXcWm) | Anna Yvette | 19 Nov, 08:29 |
+| <img src="https://i.scdn.co/image/ab67616d000048510e8ba185f3e9f15630a7b5fb" width="40"> | [The Best of Both Worlds: The 2009 Movie Mix](https://open.spotify.com/track/7D2q9JnXzNk61lY9vDKnvt) | Hannah Montana | 19 Nov, 08:25 |
+| <img src="https://i.scdn.co/image/ab67616d00004851886ad55a693ec95945dfe334" width="40"> | [TV SHOW](https://open.spotify.com/track/1k01MAwJ4kTLQ5bbqb4o2W) | odelia tirza | 19 Nov, 08:22 |
+| <img src="https://i.scdn.co/image/ab67616d0000485124a1ac503b55e6eef9a7bb8c" width="40"> | [Just Give Me a Reason (feat. Nate Ruess)](https://open.spotify.com/track/1mKXFLRA179hdOWQBwUk9e) | P!nk, Nate Ruess | 19 Nov, 08:19 |
 
-<sub>Last updated: 16 Nov 2026, 16:02 MYT</sub>
+<sub>Last updated: 19 Nov 2026, 16:51 MYT</sub>
 <!-- SPOTIFY:END -->
 
 ## 📊 GitHub Stats
