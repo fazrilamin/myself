@@ -5,13 +5,13 @@
 <!-- SPOTIFY:START -->
 | | Track | Artist | Played |
 |---|---|---|---|
-| <img src="https://i.scdn.co/image/ab67616d000048514110bfab1185fdfc9dfc2cf0" width="40"> | [Clean (Taylor's Version)](https://open.spotify.com/track/2ByBBvpR9b7IynvRmnG7kG) | Taylor Swift | 19 Nov, 08:33 |
-| <img src="https://i.scdn.co/image/ab67616d00004851f494ec3557599e3333b1925b" width="40"> | [Shooting Star](https://open.spotify.com/track/3NaTMzagO4nwJVKL9tXcWm) | Anna Yvette | 19 Nov, 08:29 |
-| <img src="https://i.scdn.co/image/ab67616d000048510e8ba185f3e9f15630a7b5fb" width="40"> | [The Best of Both Worlds: The 2009 Movie Mix](https://open.spotify.com/track/7D2q9JnXzNk61lY9vDKnvt) | Hannah Montana | 19 Nov, 08:25 |
-| <img src="https://i.scdn.co/image/ab67616d00004851886ad55a693ec95945dfe334" width="40"> | [TV SHOW](https://open.spotify.com/track/1k01MAwJ4kTLQ5bbqb4o2W) | odelia tirza | 19 Nov, 08:22 |
-| <img src="https://i.scdn.co/image/ab67616d0000485124a1ac503b55e6eef9a7bb8c" width="40"> | [Just Give Me a Reason (feat. Nate Ruess)](https://open.spotify.com/track/1mKXFLRA179hdOWQBwUk9e) | P!nk, Nate Ruess | 19 Nov, 08:19 |
+| <img src="https://i.scdn.co/image/ab67616d00004851e11a75a2f2ff39cec788a015" width="40"> | [The Story Of Us](https://open.spotify.com/track/3RBluWmSoG2pGA1OePzGJI) | Taylor Swift | 20 Nov, 13:32 |
+| <img src="https://i.scdn.co/image/ab67616d000048511470a07a347aa0e7ceebd85c" width="40"> | [Korang](https://open.spotify.com/track/1hnlZkJjeNDbvojYQeF73b) | Bunkface | 20 Nov, 13:27 |
+| <img src="https://i.scdn.co/image/ab67616d00004851d4f2dec830cff833f388bfe6" width="40"> | [Esok Belum Tiba (feat. Liyana Fizi)](https://open.spotify.com/track/7aSAA7YP0B6nkkX74WDhmT) | Nastia | 20 Nov, 13:23 |
+| <img src="https://i.scdn.co/image/ab67616d0000485100decb1864fc551804e9b372" width="40"> | [Mara Bahaya](https://open.spotify.com/track/3WUuQdkmzqg9i3HYaKbfc6) | Pop Shuvit | 20 Nov, 13:19 |
+| <img src="https://i.scdn.co/image/ab67616d00004851be5d79c73e718926afd14d70" width="40"> | [Fallin' For You](https://open.spotify.com/track/1le5KVGTF1xWf2aUj7ruLy) | Colbie Caillat | 20 Nov, 13:15 |
 
-<sub>Last updated: 19 Nov 2026, 16:51 MYT</sub>
+<sub>Last updated: 22 Nov 2026, 16:03 MYT</sub>
 <!-- SPOTIFY:END -->
 
 ## 📊 GitHub Stats
