@@ -5,13 +5,13 @@
 <!-- SPOTIFY:START -->
 | | Track | Artist | Played |
 |---|---|---|---|
-| <img src="https://i.scdn.co/image/ab67616d00004851e11a75a2f2ff39cec788a015" width="40"> | [The Story Of Us](https://open.spotify.com/track/3RBluWmSoG2pGA1OePzGJI) | Taylor Swift | 20 Nov, 13:32 |
-| <img src="https://i.scdn.co/image/ab67616d000048511470a07a347aa0e7ceebd85c" width="40"> | [Korang](https://open.spotify.com/track/1hnlZkJjeNDbvojYQeF73b) | Bunkface | 20 Nov, 13:27 |
-| <img src="https://i.scdn.co/image/ab67616d00004851d4f2dec830cff833f388bfe6" width="40"> | [Esok Belum Tiba (feat. Liyana Fizi)](https://open.spotify.com/track/7aSAA7YP0B6nkkX74WDhmT) | Nastia | 20 Nov, 13:23 |
-| <img src="https://i.scdn.co/image/ab67616d0000485100decb1864fc551804e9b372" width="40"> | [Mara Bahaya](https://open.spotify.com/track/3WUuQdkmzqg9i3HYaKbfc6) | Pop Shuvit | 20 Nov, 13:19 |
-| <img src="https://i.scdn.co/image/ab67616d00004851be5d79c73e718926afd14d70" width="40"> | [Fallin' For You](https://open.spotify.com/track/1le5KVGTF1xWf2aUj7ruLy) | Colbie Caillat | 20 Nov, 13:15 |
+| <img src="https://i.scdn.co/image/ab67616d00004851d2a1bcec6de346a40562473a" width="40"> | [He’s a Pirate - Epic Version](https://open.spotify.com/track/4IE95t2pdFCUD8rBk919wE) | Mofjell | 24 Nov, 19:56 |
+| <img src="https://i.scdn.co/image/ab67616d00004851dc2bacae1dca83d26e2b1949" width="40"> | [Say Don't Go (Taylor's Version) (From The Vault)](https://open.spotify.com/track/3CCRVu4F91Qp2mnGjmWBrf) | Taylor Swift | 24 Nov, 19:12 |
+| <img src="https://i.scdn.co/image/ab67616d00004851886ad55a693ec95945dfe334" width="40"> | [TV SHOW](https://open.spotify.com/track/1k01MAwJ4kTLQ5bbqb4o2W) | odelia tirza | 24 Nov, 19:07 |
+| <img src="https://i.scdn.co/image/ab67616d00004851e65aa01c1501cbe78e19d6af" width="40"> | [Atas Nama Cinta](https://open.spotify.com/track/6cPgWF5uGHukKuZZptAZEL) | Unic | 24 Nov, 18:13 |
+| <img src="https://i.scdn.co/image/ab67616d00004851e9bd10977ad8b82e5accea14" width="40"> | [Tabur Jasa Semai Budi](https://open.spotify.com/track/3tSsEkU845SdxuZNsVubBt) | Aeman, Unic | 24 Nov, 18:01 |
 
-<sub>Last updated: 22 Nov 2026, 16:03 MYT</sub>
+<sub>Last updated: 25 Nov 2026, 17:53 MYT</sub>
 <!-- SPOTIFY:END -->
 
 ## 📊 GitHub Stats
