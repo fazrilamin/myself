@@ -5,13 +5,13 @@
 <!-- SPOTIFY:START -->
 | | Track | Artist | Played |
 |---|---|---|---|
-| <img src="https://i.scdn.co/image/ab67616d00004851d2a1bcec6de346a40562473a" width="40"> | [He’s a Pirate - Epic Version](https://open.spotify.com/track/4IE95t2pdFCUD8rBk919wE) | Mofjell | 24 Nov, 19:56 |
-| <img src="https://i.scdn.co/image/ab67616d00004851dc2bacae1dca83d26e2b1949" width="40"> | [Say Don't Go (Taylor's Version) (From The Vault)](https://open.spotify.com/track/3CCRVu4F91Qp2mnGjmWBrf) | Taylor Swift | 24 Nov, 19:12 |
-| <img src="https://i.scdn.co/image/ab67616d00004851886ad55a693ec95945dfe334" width="40"> | [TV SHOW](https://open.spotify.com/track/1k01MAwJ4kTLQ5bbqb4o2W) | odelia tirza | 24 Nov, 19:07 |
-| <img src="https://i.scdn.co/image/ab67616d00004851e65aa01c1501cbe78e19d6af" width="40"> | [Atas Nama Cinta](https://open.spotify.com/track/6cPgWF5uGHukKuZZptAZEL) | Unic | 24 Nov, 18:13 |
-| <img src="https://i.scdn.co/image/ab67616d00004851e9bd10977ad8b82e5accea14" width="40"> | [Tabur Jasa Semai Budi](https://open.spotify.com/track/3tSsEkU845SdxuZNsVubBt) | Aeman, Unic | 24 Nov, 18:01 |
+| <img src="https://i.scdn.co/image/ab67616d00004851b0d747e54b78eb460dcb9316" width="40"> | [Forever](https://open.spotify.com/track/3NZJlJemX3mzjf56MqC5ML) | Chris Brown | 26 Nov, 21:21 |
+| <img src="https://i.scdn.co/image/ab67616d00004851be5d79c73e718926afd14d70" width="40"> | [Fallin' For You](https://open.spotify.com/track/1le5KVGTF1xWf2aUj7ruLy) | Colbie Caillat | 26 Nov, 21:16 |
+| <img src="https://i.scdn.co/image/ab67616d00004851318443aab3531a0558e79a4d" width="40"> | [All Too Well (Taylor's Version)](https://open.spotify.com/track/3nsfB1vus2qaloUdcBZvDu) | Taylor Swift | 26 Nov, 21:13 |
+| <img src="https://i.scdn.co/image/ab67616d00004851318443aab3531a0558e79a4d" width="40"> | [All Too Well (Taylor's Version)](https://open.spotify.com/track/3nsfB1vus2qaloUdcBZvDu) | Taylor Swift | 26 Nov, 19:47 |
+| <img src="https://i.scdn.co/image/ab67616d0000485193b57728bb5ec5acdb7f382a" width="40"> | [Al Nuraa....Yang 5....Yang 6 (feat. Daly Filsuf)](https://open.spotify.com/track/1uneiN835tPWp2STYagid9) | Mawi, Hazama, Daly Filsuf | 26 Nov, 19:45 |
 
-<sub>Last updated: 25 Nov 2026, 17:53 MYT</sub>
+<sub>Last updated: 28 Nov 2026, 16:56 MYT</sub>
 <!-- SPOTIFY:END -->
 
 ## 📊 GitHub Stats
